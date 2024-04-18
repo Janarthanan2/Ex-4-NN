@@ -115,10 +115,12 @@ Normalize our dataset.
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
 
 <H3>Program:</H3> 
+
 ```
 Developed By: JANARTHANAN V K
 Reg No: 212222230051
 ```
+
 ```python
 import pandas as pd
 import sklearn
@@ -131,21 +133,34 @@ from sklearn.metrics import classification_report, confusion_matrix
 url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'Class']
 irisdata = pd.read_csv(url, names=names)
+```
+
 # Takes first 4 columns and assign them to variable "X"
+```python
 X = irisdata.iloc[:, 0:4]
+```
 # Takes first 5th columns and assign them to variable "Y". Object dtype refers to strings.
+```python
 y = irisdata.select_dtypes(include=[object])
 X.head()
 y.head()
+```
 # y actually contains all categories or classes:
+```python
 y.Class.unique()
+```
 # Now transforming categorial into numerical values
+```python
 le = preprocessing.LabelEncoder()
 y = y.apply(le.fit_transform)
 y.head()
+```
 # Now for train and test split (80% of  dataset into  training set and  other 20% into test data)
+```python
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.20)
+```
 # Feature scaling
+```python
 scaler = StandardScaler()
 scaler.fit(X_train)
 X_train = scaler.transform(X_train)
@@ -154,7 +169,9 @@ mlp = MLPClassifier(hidden_layer_sizes=(10, 10, 10), max_iter=1000)
 mlp.fit(X_train, y_train.values.ravel())
 predictions = mlp.predict(X_test)
 print(predictions)
+```
 # Last thing: evaluation of algorithm performance in classifying flowers
+```python
 print(confusion_matrix(y_test,predictions))
 print(classification_report(y_test,predictions))
 ```
