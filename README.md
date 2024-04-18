@@ -1,6 +1,6 @@
 
-<H3>ENTER YOUR NAME</H3>
-<H3>ENTER YOUR REGISTER NO.</H3>
+<H3>ENTER YOUR NAME: JANARTHANAN V K</H3>
+<H3>ENTER YOUR REGISTER NO.: 212222230051</H3>
 <H3>EX. NO.4</H3>
 <H3>DATE:</H3>
 <H1 ALIGN =CENTER>Implementation of MLP with Backpropagation for Multiclassification</H1>
@@ -14,20 +14,20 @@ MLP is widely used for solving problems that require supervised learning as well
  
 MLP has the following features:
 
-Ø  Adjusts the synaptic weights based on Error Correction Rule
+-  Adjusts the synaptic weights based on Error Correction Rule
 
-Ø  Adopts LMS
+-  Adopts LMS
 
-Ø  possess Backpropagation algorithm for recurrent propagation of error
+-  possess Backpropagation algorithm for recurrent propagation of error
 
-Ø  Consists of two passes
+-  Consists of two passes
 
-  	(i)Feed Forward pass
-	         (ii)Backward pass
+   - Feed Forward pass
+   - Backward pass
            
-Ø  Learning process –backpropagation
+-  Learning process –backpropagation
 
-Ø  Computationally efficient method
+-  Computationally efficient method
 
 ![image 10](https://user-images.githubusercontent.com/112920679/198804559-5b28cbc4-d8f4-4074-804b-2ebc82d9eb4a.jpg)
 
