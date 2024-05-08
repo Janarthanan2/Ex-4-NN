@@ -1,8 +1,11 @@
 
-<H3>ENTER YOUR NAME: JANARTHANAN V K</H3>
-<H3>ENTER YOUR REGISTER NO.: 212222230051</H3>
-<H3>EX. NO.4</H3>
-<H3>DATE:</H3>
+**ENTER YOUR NAME: JANARTHANAN V K**<br>
+
+**ENTER YOUR REGISTER NO.: 212222230051**<br>
+
+**EX.NO.4**<br>
+
+**DATE:** <br>
 <H1 ALIGN =CENTER>Implementation of MLP with Backpropagation for Multiclassification</H1>
 <H3>Aim:</H3>
 To implement a Multilayer Perceptron for Multi classification
@@ -29,13 +32,13 @@ MLP has the following features:
 
 -  Computationally efficient method
 
-![image 10](https://user-images.githubusercontent.com/112920679/198804559-5b28cbc4-d8f4-4074-804b-2ebc82d9eb4a.jpg)
+<img src="https://user-images.githubusercontent.com/112920679/198804559-5b28cbc4-d8f4-4074-804b-2ebc82d9eb4a.jpg" width=50%>
 
 3 Distinctive Characteristics of MLP:
 
 Ø  Each neuron in network includes a non-linear activation function
 
-![image](https://user-images.githubusercontent.com/112920679/198814300-0e5fccdf-d3ea-4fa0-b053-98ca3a7b0800.png)
+<img src="https://user-images.githubusercontent.com/112920679/198814300-0e5fccdf-d3ea-4fa0-b053-98ca3a7b0800.png" width=50%>
 
 Ø  Contains one or more hidden layers with hidden neurons
 
